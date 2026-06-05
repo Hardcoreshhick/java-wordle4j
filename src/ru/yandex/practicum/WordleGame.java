@@ -1,5 +1,8 @@
 package ru.yandex.practicum;
 
+import ru.yandex.practicum.exceptions.GameOverException;
+import ru.yandex.practicum.exceptions.WordNotFoundException;
+
 import java.io.PrintWriter;
 import java.util.*;
 

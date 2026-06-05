@@ -17,7 +17,7 @@ public class WordleDictionaryLoader {
             String line;
             while ((line = reader.readLine()) != null) {
                 line = line.trim().toLowerCase().replace('ё', 'е');
-                if(line.length() == 5) {
+                if (line.length() == 5) {
                     words.add(line);
                 }
             }

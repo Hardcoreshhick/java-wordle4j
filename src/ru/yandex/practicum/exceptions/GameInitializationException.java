@@ -1,4 +1,4 @@
-package ru.yandex.practicum;
+package ru.yandex.practicum.exceptions;
 
 public class GameInitializationException extends Exception {
     public GameInitializationException(String message) {

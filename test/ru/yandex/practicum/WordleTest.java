@@ -3,6 +3,7 @@ package ru.yandex.practicum;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import ru.yandex.practicum.exceptions.WordNotFoundException;
 
 import java.io.PrintWriter;
 import java.util.List;
